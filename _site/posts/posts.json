@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-05-19-first-new-post/",
+    "title": "First new post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Matt Jiwa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-05-19",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n\n\n\n",
+    "preview": "posts/2021-05-19-first-new-post/first-new-post_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2021-05-19T01:54:09+10:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Distill",
+    "description": "Welcome to our new blog, Distill. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Matt Jiwa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-05-19",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-05-19T01:50:37+10:00",
+    "input_file": {}
+  }
+]
