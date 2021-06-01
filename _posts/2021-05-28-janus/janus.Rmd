@@ -1,0 +1,30 @@
+---
+title: "Janus"
+description: |
+  A short description of the post.
+author:
+  - name: Matt Jiwa
+    url: https://example.com/norajones
+date: 05-28-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(here)
+```
+
+Here's some generative art made by a two-component reaction diffusion process. I first saw this style of art on [Antonio Sánchez Chinchón's blog](https://fronkonstin.com/2019/12/28/reaction-diffusion/) and was further inspired by articles from [Karl Sims](https://www.karlsims.com/rd.html) and [Robert Munafo](https://mrob.com/pub/comp/xmorphia/).
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%'} 
+knitr::include_graphics(here("_images", "brainplot.png"))  
+```
+
+In short, the process generating these patterns is called the Gray-Scott reaction-diffusion model. The articles I linked above go into plenty of detail about the parameters guiding this process, so I won't rehash their work.
+
+I made some colour palettes based on that of the (pretty incredible) conspiracy drama [Utopia](https://www.imdb.com/title/tt2384811/). The cinematography is pretty [vibrant](https://external-preview.redd.it/-jDVaUzmtdSYgYpbuyZI9UMx3m8WPGQIYFfRFtTE8qE.png?auto=webp&s=7e3a965e645d61b587486c00c2aa382db4c26a5b) so I wouldn't exactly call the figures it produces particularly easy on the eye, but I like the 
+
+

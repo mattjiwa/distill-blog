@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-05-28-janus/",
+    "title": "Janus",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Matt Jiwa",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-05-28",
+    "categories": [],
+    "contents": "\nHere’s some generative art made by a two-component reaction diffusion process. I first saw this style of art on Antonio Sánchez Chinchón’s blog and was further inspired by articles from Karl Sims and Robert Munafo.\n\n\n\nIn short, the process generating these patterns is called the Gray-Scott reaction-diffusion model. The articles I linked above go into plenty of detail about the parameters guiding this process, so I won’t rehash their work.\nI made some colour palettes based on that of the (pretty incredible) conspiracy drama Utopia. The cinematography is pretty vibrant so I wouldn’t exactly call the figures it produces particularly easy on the eye, but I like the\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-06-01T21:34:09+10:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-05-19-first-new-post/",
     "title": "First new post",
     "description": "A short description of the post.",
