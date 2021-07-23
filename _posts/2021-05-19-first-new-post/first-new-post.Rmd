@@ -10,6 +10,8 @@ bibliography: biblio.bib
 output:
   distill::distill_article:
     self_contained: false
+    toc: true
+    toc_depth: 2
 ---
 
 
@@ -26,5 +28,17 @@ Testing citation here [@Lane1997a].
 ```{r}
 plot(1:10)
 ```
+
+
+# Ingredients
+- Bla
+- Bla bla bla <aside> If you don't have bla bla bla, you can use bla instead.</aside>
+- Bla bla
+
+# Method
+
+- Mix the bla with the bla bla.
+- agsingdafgjkbfnksag lsndflabrg.
+- lsngkjdfngoesbgsn lisenlgbss.
 
 

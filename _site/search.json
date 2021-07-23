@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\nThis is the about page for this website.\n\n\n\n",
-      "last_modified": "2021-06-07T22:36:11+10:00"
+      "last_modified": "2021-07-23T13:10:00+10:00"
     },
     {
       "path": "index.html",
       "title": "Distill",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-06-07T22:36:17+10:00"
+      "contents": "\n      \n        \n      \n      \n      \t\n      \t\t<!--//--><![CDATA[//><!--\n      \t\t\tvar images = new Array()\n      \t\t\tfunction preload() {\n      \t\t\t\tfor (i = 0; i < preload.arguments.length; i++) {\n      \t\t\t\t\timages[i] = new Image()\n      \t\t\t\t\timages[i].src = preload.arguments[i]\n      \t\t\t\t}\n      \t\t\t}\n      \t\t\tpreload(\n      \t\t\t\t\"assets/banner.png\",\n      \t\t\t\t\"assets/bannerBack.png\"\n      \t\t\t)\n      \t\t//--><!]]>\n      \t\n\n      \n    \n  ",
+      "last_modified": "2021-07-23T13:10:01+10:00"
     }
   ],
   "collections": ["posts/posts.json"]

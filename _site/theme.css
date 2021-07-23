@@ -40,3 +40,45 @@ html {
 .posts-list .posts-list-caption {
   text-align: center;
 }
+
+body {
+  background-color: #FFFEF6;
+}
+
+d-byline {
+  background-color: #F2F0E2;
+}
+
+d-appendix {
+  background-color: #F2F0E2;
+}
+
+.distill-site-header {
+  --bkgd-color: #332E35;
+}
+
+.article-header {
+  position: relative;
+}
+
+.top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  transition: opacity 0.1s;
+ }
+
+img[src="assets/banner.png"] {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  margin: 100px 0px 0px 0px;
+}
+
+img[src="assets/bannerBack.png"] {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  margin: 100px 0px 0px 0px;
+}

@@ -2,5 +2,22 @@
 title: "Distill"
 site: distill::distill_website
 listing: posts
+output:
+    distill::distill_article:
+      includes:
+        in_header: assets/header.html
 ---
+
+```{js, echo=FALSE}
+var target = $('.top');
+var targetHeight = target.outerHeight();
+
+$(document).scroll(function(e){
+    var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
+    if(scrollPercent >= 0){
+        target.css('opacity', scrollPercent);
+    }
+});
+```
+
 
