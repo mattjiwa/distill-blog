@@ -2364,23 +2364,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       <title></title>
     </head>
     <body>
-      <div class="hidden">
-      	<script type="text/javascript">
-      		<!--//--><![CDATA[//><!--
-      			var images = new Array()
-      			function preload() {
-      				for (i = 0; i < preload.arguments.length; i++) {
-      					images[i] = new Image()
-      					images[i].src = preload.arguments[i]
-      				}
-      			}
-      			preload(
-      				"assets/banner.png",
-      				"assets/bannerBack.png"
-      			)
-      		//--><!]]>
-      	</script>
-      </div>
       
       <div class="article-header">
         <img src="assets/bannerBack.png">
@@ -2642,6 +2625,16 @@ reading what we have to say!</p>
 <div class="d-article">
 <div class="layout-chunk" data-layout="l-body">
 <script type="text/javascript">
+
+function preloadImage(url)
+{
+    var img = new Image();
+    img.src = "/test/example.jpg";
+}
+
+preloadImage("/assets/banner.png")
+preloadImage("/assets/bannerBack.png")
+
 var target = $('.top');
 var targetHeight = target.outerHeight();
 
